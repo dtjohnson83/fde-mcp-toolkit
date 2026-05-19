@@ -12,6 +12,25 @@ The point is not to show another chatbot. The point is to show the infrastructur
 - readiness scoring before go-live
 - repeatable handoffs for solution engineers and customer teams
 
+## Recruiter Shortcut
+
+This is the repo to review if you want evidence for Forward Deployed Engineer, AI Solutions Engineer, or MCP-heavy customer engineering roles.
+
+What it shows:
+
+- I understand that customer discovery has to become structured implementation data.
+- I design AI tools with approvals, evidence, and audit trails instead of loose prompts.
+- I can write typed TypeScript modules, tests, examples, docs, and CI around an implementation pattern.
+- I think about go-live readiness, not just demo-day output.
+
+Fast path:
+
+```bash
+npm install
+npm test
+npm run demo
+```
+
 ## Why This Matters
 
 Forward-deployed AI work sits between customer reality and product capability. MCP is useful because it gives agents controlled access to operational tools without turning every workflow into an ungoverned prompt.
@@ -26,6 +45,15 @@ This toolkit shows how to expose implementation knowledge as typed tools.
 | implementation-readiness | Scores whether an AI workflow is ready for pilot or go-live |
 | agent-audit | Records agent actions, evidence, approval state, and decision trail |
 
+## What A Customer Team Would Get
+
+This pattern can become a lightweight implementation operating system:
+
+1. Capture discovery notes as structured customer context.
+2. Score the workflow against readiness criteria before pilot or go-live.
+3. Record agent/tool actions with evidence and approval state.
+4. Summarize the decision trail for customer stakeholders, compliance, or support.
+
 ## Example Tools
 
 - extract_customer_context
@@ -35,9 +63,11 @@ This toolkit shows how to expose implementation knowledge as typed tools.
 
 ## Quick Start
 
-    npm install
-    npm test
-    npm run demo
+```bash
+npm install
+npm test
+npm run demo
+```
 
 ## Why This Helps In FDE / AI Solutions Interviews
 
@@ -53,4 +83,3 @@ This repo gives a hiring manager evidence that I can think beyond calling an LLM
 - https://github.com/dtjohnson83/agent-audit-trail
 - https://github.com/dtjohnson83/osha-mcp
 - https://github.com/dtjohnson83/forward-deployed-ai-portfolio
-
