@@ -1,0 +1,5 @@
+{
+  "customer": "Example Manufacturing Co",
+  "notes": "The implementation analyst and solution architect need a natural-language analytics workflow over Snowflake and Excel extracts. The customer admin wants approval before production changes. The executive sponsor needs audit evidence because some reports are customer-facing and may include sensitive operational data. Current workflow is manual spreadsheet review and repeated handoff between implementation and data teams."
+}
+

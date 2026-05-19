@@ -1,0 +1,29 @@
+{
+  "name": "fde-mcp-toolkit",
+  "version": "1.0.0",
+  "description": "MCP server patterns for forward-deployed AI implementation, customer context, readiness checks, and auditability.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "node --import tsx examples/demo.ts",
+    "demo": "node --import tsx examples/demo.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "forward-deployed-ai",
+    "ai-solutions-engineering",
+    "agent-audit",
+    "implementation-readiness"
+  ],
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "license": "MIT"
+}
+
