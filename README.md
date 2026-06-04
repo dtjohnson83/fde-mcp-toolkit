@@ -4,7 +4,7 @@ MCP server patterns for forward-deployed AI implementation work.
 
 This repo demonstrates how I would package customer context, implementation readiness checks, and auditability into MCP tools that an AI agent can safely use during a customer deployment.
 
-The point is not to show another chatbot. The point is to show the infrastructure around useful AI work:
+The point is not to show another chatbot or AI experiment. The point is to show the infrastructure around useful AI work:
 
 - structured customer discovery
 - tool-safe implementation checks
@@ -12,7 +12,7 @@ The point is not to show another chatbot. The point is to show the infrastructur
 - readiness scoring before go-live
 - repeatable handoffs for solution engineers and customer teams
 
-## Recruiter Shortcut
+## Employer Review
 
 This is the repo to review if you want evidence for Forward Deployed Engineer, AI Solutions Engineer, or MCP-heavy customer engineering roles.
 
@@ -30,6 +30,13 @@ npm install
 npm test
 npm run demo
 ```
+
+Review order:
+
+1. [src/customer-context](src/customer-context) - how messy discovery notes become structured implementation context
+2. [src/implementation-readiness](src/implementation-readiness) - how readiness is scored before pilot or go-live
+3. [src/agent-audit](src/agent-audit) - how tool actions become a traceable decision record
+4. [test](test) - verification around the core implementation pattern
 
 ## Why This Matters
 
